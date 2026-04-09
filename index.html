@@ -7,20 +7,66 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">Detalle de cursos matriculados</div>
-        <div class="info-section">
-            <div class="avatar">👤</div>
-            <p><strong>Estudiante:</strong> GARCIA VEREAU, MELANY SUZETT</p>
-            <p><strong>Escuela:</strong> INGENIERÍA EN INDUSTRIAS ALIMENTARIAS</p>
-            <p><strong>Ciclo:</strong> 5</p>
+    <div class="grid-background"></div>
+
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="UNAB.png" alt="Logo" class="icon-nav">
         </div>
-        <table>
-            <tr><th>Ciclo</th><th>Código</th></tr>
-            <tr><td>5</td><td>EEI13</td></tr>
-            <tr><td>5</td><td>EEI14</td></tr>
-            <tr><td>5</td><td>EEI15</td></tr>
-        </table>
-    </div>
+        <div class="nav-right">
+            <div class="menu-lines">
+                <span></span><span></span><span></span>
+            </div>
+            <div class="dots">...</div>
+        </div>
+    </nav>
+
+    <main class="card">
+        <header class="card-header">
+            <h2>Detalle de cursos matriculados</h2>
+        </header>
+
+        <section class="content">
+            <label class="label-muted">Periodo académico</label>
+            <div class="period-box">2026-1</div>
+
+            <div class="profile-container">
+                <div class="avatar-gray">
+                    <svg viewBox="0 0 24 24"><path d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" /></svg>
+                </div>
+                
+                <div class="student-info">
+                    <p><span class="key">Estudiante</span> : <span class="val">GARCIA VEREAU, MELANY SUZETT</span></p>
+                    <p><span class="key">Escuela Profesional</span> : <span class="val">INGENIERÍA EN INDUSTRIAS ALIMENTARIAS (P: 4)</span></p>
+                    <p><span class="key">Código</span> : <span class="val">242.0708.011</span></p>
+                    <p><span class="key">Programa Académico</span> : <span class="val">INGENIERÍA EN INDUSTRIAS ALIMENTARIAS</span></p>
+                    <p><span class="key">Ciclo</span> : <span class="val">5</span></p>
+                    <p><span class="key">Créditos disponibles</span> : <span class="val">24.00</span></p>
+                </div>
+            </div>
+
+            <h3 class="table-title">Cursos matriculados</h3>
+            <p class="count-text">Mostrando 1 - 6 de 6 registros</p>
+
+            <div class="table-wrapper">
+                <table class="unab-table">
+                    <thead>
+                        <tr>
+                            <th>Ciclo</th>
+                            <th>Código</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><span class="plus-btn">+</span> 5</td><td>EEI13</td></tr>
+                        <tr><td><span class="plus-btn">+</span> 5</td><td>EEI14</td></tr>
+                        <tr><td><span class="plus-btn">+</span> 5</td><td>EEI15</td></tr>
+                        <tr><td><span class="plus-btn">+</span> 5</td><td>EEI16</td></tr>
+                        <tr><td><span class="plus-btn">+</span> 5</td><td>EEI17</td></tr>
+                        <tr><td><span class="plus-btn">+</span> 5</td><td>EEI18</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

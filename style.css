@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; background-color: #f4f4f4; display: flex; justify-content: center; padding: 20px; }
+.container { background: white; width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); overflow: hidden; }
+.header { background: #fff; color: #333; padding: 15px; font-weight: bold; border-bottom: 1px solid #eee; }
+.info-section { padding: 20px; text-align: center; }
+.avatar { font-size: 80px; color: #ccc; margin-bottom: 10px; }
+table { width: 100%; border-collapse: collapse; }
+th { background: #f8f9fa; color: #666; text-align: left; padding: 10px; }
+td { padding: 10px; border-bottom: 1px solid #eee; }
